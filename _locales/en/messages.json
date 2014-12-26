@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "GETTING ACCESS TOKEN FOR USE WITH CSE",
+        "description": "The name of the application"
+    },
+    "appDescription": {
+        "message": "SIMPLE EXAMPLE OF GETTING ACCESS TOKEN FOR USE WITH CSE",
+        "description": "The description of the application"
+    }
+}

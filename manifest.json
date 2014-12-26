@@ -1,0 +1,38 @@
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDescription__",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "23",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "management",
+    "declarativeContent",
+    "tabs",
+    "identity",
+    "storage",
+    "<all_urls>"
+  ],
+  "page_action": {
+    "default_icon": "images/icon-16.png"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "scripts": [
+      "ep-auth.js"
+    ],
+    "persistent": false
+  },
+  "oauth2": {
+    "client_id": <YOUR OWN CLIENT ID HERE>
+    "scopes": [
+      "https://www.googleapis.com/auth/drive",
+      "https://www.googleapis.com/auth/cse"
+    ]
+  },
+  "key": <YOUR OWN KEY HERE>
+}
